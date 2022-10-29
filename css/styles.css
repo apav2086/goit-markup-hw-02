@@ -1,0 +1,107 @@
+/* General Styles */
+:root {
+    --main-color: #2F303A;
+    --link-color: #2196F3;
+    --contact-color: #757575;
+    --background-color: #ffff;
+
+}
+
+body {font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+li {
+    text-decoration: none;
+}
+
+/* Header and footer */
+
+.logo {
+    color: var(--link-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;}
+
+.pages {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+.pages:hover {
+    color: var(--link-color);
+    ;}
+
+.contact {
+    color: var(--contact-color);
+}
+
+.contact:hover {
+    color: var(--link-color);
+    font-weight: 500;
+}
+.service-request,
+footer {
+    background-color: var(--main-color);
+   
+}
+
+.service-request,
+#addres {
+    color: var(--background-color);
+    ;
+}
+
+.contacts {
+    color: var(--contact-color);
+}
+/* Main */
+
+.service-request {
+font-weight: 900;
+
+}
+
+button {
+    color: var(--background-color);
+    background-color: var(--link-color);
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+        }
+
+
+h1, h2, .center-text {text-align: center;}
+
+h2 {font-weight: 700;
+font-size: 36px;}
+
+h4 {
+    font-weight: 700;
+        font-size: 14px;
+}
+li {list-style: none;
+font-style: normal;}
+
+.characteristics {
+    font-weight: 700;
+}
+
+p {
+    color: var(--contact-color);
+font-weight: 400;
+font-size: 16px;}
+
+.footer:hover {
+    color: var(--link-color);
+}
